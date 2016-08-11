@@ -1,0 +1,170 @@
+body { 
+background: url(../images/bg.jpg) no-repeat;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+color: white;
+ }
+
+ #loginpanel {
+ 	position: absolute;
+ 	top: 10vmax;
+ 	left:20vmax;
+ 	height: 30vmax;
+ 	width: 35vmax;
+ 	background: url(../images/bubble.png) no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	 
+ }
+
+ #loginform {
+ 	position: absolute;
+ 	top:17vmax;
+ 	left: 23vmax;
+ 	width: 32vmax;
+
+ }
+ .login_user { width: 25vmax; height:3vmax; font-size: 2vmax; margin: 1vmax; padding: 0; }
+ .login_pass { width: 23vmax; height:3vmax; font-size: 2vmax; margin: 1vmax; padding: 0; }
+
+#sgn-in {
+	position: absolute;
+	left: 24vmax;
+	top:6vmax;
+	height: 3.3vmax;
+	width: 4vmax;
+
+}
+
+#regpanel {
+	position: absolute;
+ 	top: 4vmax;
+ 	left:20vmax;
+ 	height: 42vmax;
+ 	width: 55vmax;
+ 	background-color: #A6A4A4;
+ 	border-radius: 1vmax;
+ 	opacity: 0.4;
+
+}
+.regpanel_head {
+	position: absolute;
+	top:7vmax;
+	left:26vmax;
+	color: #0A0909;
+	
+	font-size: 3vmax;
+	-webkit-text-stroke-width: 0.5px;
+	-o-text-stroke-width: 0.5px;
+	-moz-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: blue;
+   -o-text-stroke-color: blue;
+   -moz-text-stroke-color: blue;
+}
+#regform {
+	position: absolute;
+	top:13vmax;
+	left: 26vmax;
+	font-size: 1vmax;
+}
+td {
+	width: 7vmax;
+	padding-bottom: 2vmax;
+}
+
+button#signup,button#cancel {
+		background-color: #615E5D;
+		height: 2vmax;
+		width: 5vmax;
+		border-radius:0.5vmax;
+		color:white;
+}
+button#cancel:hover {background-color: 	#CD5C5C;}
+#headpanel {
+	position: absolute;
+ 	top: 4vmax;
+ 	left:20vmax;
+	height: 7vmax;
+ 	width: 33vmax;
+ 	background-color: #A6A4A4;
+ 	border-radius: 1vmax;
+ 	opacity: 0.4;
+ 	box-shadow: 0.6vmax 0.6vmax 0.2vmax black;
+ 	margin-bottom: 0.5vmax;
+ 	color:white;
+
+}
+#tablehead {
+	position: absolute;
+ 	top: 4vmax;
+ 	left:20vmax;
+ 	height: 7vmax;
+ 	width: 33vmax;
+ 	font-size:1.5vmax;
+ 	
+
+}
+ a {color: #FFFFFF;
+    text-decoration: none;
+	font-weight: bolder;
+	}
+
+img#addmember {
+	height:4vmax;
+	margin-left: 6vmax;
+	margin-top: 2vmax;
+
+
+}
+#tablebody {
+	position: absolute;
+	top:13vmax;
+	left:20vmax;
+}
+
+.contactblock {
+	position: relative;
+	background-color: #A6A4A4;
+ 	border-radius: 1vmax;
+ 	opacity: 0.8;
+ 	box-shadow: 0.6vmax 0.6vmax 0.2vmax black;
+ 	margin-bottom: 0.5vmax;
+ 	color:white;
+ 	font-size: 2vmax;
+ 	margin-left: 2vmax;
+ 	padding: 2vmax;
+}
+
+.editprofile {
+	height: 3vmax;
+	margin-left: 9vmax;
+	
+}
+.deleteprofile {
+	height: 3vmax;
+	margin-left: 1vmax;
+}
+#logout {
+	font-size: 1.2vmax;
+	position: absolute;
+	top:6vmax;
+	right: 5vmax;
+}
+#edit_profile {
+	position: absolute;
+	top:35vmax;
+	left: 28vmax;
+	color:white;
+	font-size: 1.5vmax;
+}
+
+#oops {
+	position: absolute;
+	left:14vmax;
+	font-weight: bold;
+	font-size: 3vmax;
+}
